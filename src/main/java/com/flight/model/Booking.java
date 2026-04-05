@@ -11,6 +11,8 @@ import java.time.LocalDateTime;
 public class Booking {
     private String bookingId;
     private String flightNumber;
+    private String departure;
+    private String destination;
     private String passengerName;
     private int numberOfSeats;
     private String status;

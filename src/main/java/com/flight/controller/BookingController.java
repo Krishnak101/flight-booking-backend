@@ -38,6 +38,8 @@ public class BookingController {
             BookingResponse response = BookingResponse.builder()
                     .bookingId(booking.getBookingId())
                     .flightNumber(booking.getFlightNumber())
+                    .departure(booking.getDeparture())
+                    .destination(booking.getDestination())
                     .passengerName(booking.getPassengerName())
                     .numberOfSeats(booking.getNumberOfSeats())
                     .status(booking.getStatus())

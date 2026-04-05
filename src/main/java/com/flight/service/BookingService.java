@@ -75,6 +75,8 @@ public class BookingService {
         Booking booking = new Booking(
                 bookingId,
                 flightNumber,
+                flight.getDeparture(),
+                flight.getDestination(),
                 bookingRequest.getPassengerName(),
                 requestedSeats,
                 "CONFIRMED",
